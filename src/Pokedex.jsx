@@ -20,10 +20,10 @@ const defaultPokemon = [
  * Children: Pokecard
  *
  */
-function Pokedex({ pokemon = defaultPokemon }) {
+function Pokedex({ pokemon = defaultPokemon, name = "Pokedex" }) {
     return (
         <div className="Pokedex">
-            <h1>Pokedex</h1>
+            <h1>{name}</h1>
             <div className="Pokedex-container">
                 {pokemon.map(p =>
                     <Pokecard

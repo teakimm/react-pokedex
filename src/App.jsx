@@ -1,4 +1,4 @@
-import Pokedex from "./Pokedex";
+import Pokegame from "./Pokegame";
 
 /** Component for the entire page, renders Pokedexes
  *
@@ -9,9 +9,7 @@ function App() {
 
   return (
     <div>
-      <Pokedex />
-      <Pokedex />
-      <Pokedex />
+      <Pokegame />
     </div>
   );
 };
