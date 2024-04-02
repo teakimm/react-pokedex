@@ -1,5 +1,4 @@
 import Pokedex from "./Pokedex";
-import { choice, remove } from './helpers';
 import { shuffle } from "lodash";
 import "./Pokegame.css";
 

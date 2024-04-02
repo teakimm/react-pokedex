@@ -4,7 +4,7 @@ import Pokegame from "./Pokegame";
  *
  * Props: none
  * Children: Pokedex
- */
+ */ //TODO: fix docstrings
 function App() {
 
   return (
